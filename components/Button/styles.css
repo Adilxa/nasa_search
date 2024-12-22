@@ -1,0 +1,28 @@
+.storybook-button {
+  @apply font-semibold rounded-full inline-block leading-none hover:scale-105 transition-all border-0 border-solid cursor-pointer focus:ring-0;
+
+}
+
+.storybook-button:hover svg path {
+  @apply group-hover:fill-white;
+}
+
+.storybook-button--primary {
+  @apply text-white bg-blue-500;
+}
+
+.storybook-button--secondary {
+  @apply text-gray-700 bg-transparent shadow-inner border border-solid border-gray-300;
+}
+
+.storybook-button--small {
+  @apply text-xs px-4 py-2;
+}
+
+.storybook-button--medium {
+  @apply text-sm px-5 py-2.5;
+}
+
+.storybook-button--large {
+  @apply text-base px-6 py-3;
+}
